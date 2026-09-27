@@ -1,0 +1,22 @@
+##fileformat=VCFv4.2
+##contig=<ID=chr1,length=300>
+##contig=<ID=chrX,length=120>
+##contig=<ID=chrY,length=80>
+##contig=<ID=chrM,length=100>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read depth">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype quality">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Phred-scaled genotype likelihoods">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	S1	S2	S3
+chr1	100	.	A	G	.	.	.	GT:DP:GQ:PL	0/0:30:99:0,30,300	0/1:30:99:30,0,300	0/1:30:99:30,0,300
+chr1	120	.	C	T	.	.	.	GT:DP:GQ:PL	0/0:30:99:0,40,400	0/0:30:99:0,40,400	0/1:30:99:40,0,400
+chr1	140	.	G	A	.	.	.	GT:DP:GQ:PL	0/0:30:99:0,40,400	0/0:30:99:0,40,400	1/1:30:99:400,40,0
+chr1	160	.	T	C	.	.	.	GT:DP:GQ:PL	0/0:30:99:0,30,300	0/1:30:99:30,0,300	0/1:5:99:30,0,300
+chr1	180	.	A	G,T	.	.	.	GT:DP:GQ:PL	0/1:30:99:30,0,300,90,90,900	0/0:30:99:0,30,300,60,120,600	0/1:30:99:30,0,300,90,90,900
+chr1	200	.	T	TT	.	.	.	GT:DP:GQ:PL	0/0:30:99:0,30,300	0/1:30:99:30,0,300	0/1:30:99:30,0,300
+chr1	220	.	AT	A	.	.	.	GT:DP:GQ:PL	0/0:30:99:0,30,300	0/1:30:99:30,0,300	0/1:30:99:30,0,300
+chrX	10	.	A	G	.	.	.	GT:DP:GQ:PL	0/1:30:99:30,0,300	0/0:30:99:0,30,300	0/1:30:99:30,0,300
+chrX	100	.	A	G	.	.	.	GT:DP:GQ:PL	1:30:99:300,0	0/1:30:99:30,0,300	0/1:30:99:30,0,300
+chrY	60	.	A	G	.	.	.	GT:DP:GQ:PL	1:30:99:300,0	0:30:99:0,300	.:0:0:.
+chrM	30	.	A	G	.	.	.	GT:DP:GQ:PL	0:30:99:0,300	1:30:99:300,0	1:30:99:300,0
+chrM	60	.	C	T	.	.	.	GT:DP:GQ:PL	0:30:99:0,300	0:30:99:0,300	1:30:99:300,0

@@ -1,0 +1,11 @@
+{
+  "x_contigs": ["chrX"],
+  "y_contigs": ["chrY"],
+  "mt_contigs": ["chrM"],
+  "par_regions": [
+    {"contig": "chrX", "start": 0, "end": 50},
+    {"contig": "chrY", "start": 0, "end": 50}
+  ],
+  "male_sex_value": "1",
+  "female_sex_value": "2"
+}
